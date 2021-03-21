@@ -31,16 +31,17 @@ public class IntegerDataType {
 	
 
 	public static void main(String[] args) {
-		
-		multiply(1, 3, 5);
-		System.out.println("The age is " +age);
 		IntegerDataType obj = new IntegerDataType();
-		System.out.println(obj.add());
-		System.out.println("Total money is "+obj.money);
-		//int m = obj.multiply(2, 3, 5);
-		//System.out.println(m);
-		obj.standered();
-		
+		obj.device();
+//		multiply(1, 3, 5);
+//		System.out.println("The age is " +age);
+//		IntegerDataType obj = new IntegerDataType();
+//		System.out.println(obj.add());
+//		System.out.println("Total money is "+obj.money);
+//		//int m = obj.multiply(2, 3, 5);
+//		//System.out.println(m);
+//		obj.standered();
+//		
 	}
 
 }
