@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginToChase {
 	
-	public static WebDriver driver;
+	public WebDriver driver;
 	
 	@BeforeTest
 	public void setUp() {
@@ -34,7 +34,7 @@ public class LoginToChase {
 		driver.manage().window().maximize();
 	}
 	
-	@Test
+	@Test (priority = 0)
 	public void chaseTitle() {
 		driver.get("https://www.chase.com/");
 		String title = driver.getTitle(); 
@@ -46,6 +46,21 @@ public class LoginToChase {
 			System.out.println("We are not in Chase homepage");
 		}
 	}
+	
+//	@Test(priority = 1)
+//	public static void chaseTitle_FF() {
+//		WebDriver driver = new FirefoxDriver();
+//		driver.get("https://www.chase.com/");
+//		String title = driver.getTitle(); 
+//		System.out.println(title);
+//		
+//		if(title.equals("Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com")) {
+//			System.out.println("We are in Chase homepage");
+//		}else {
+//			System.out.println("We are not in Chase homepage");
+//		}
+//	
+//	}
 	
 	@AfterTest
 	public void tearDown() {

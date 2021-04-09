@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-05T14:07:39 CDT" name="Default suite" finished-at="2021-04-05T14:07:46 CDT" duration-ms="7258">
+    <groups>
+    </groups>
+    <test started-at="2021-04-05T14:07:39 CDT" name="Default test" finished-at="2021-04-05T14:07:46 CDT" duration-ms="7258">
+      <class name="com.chase.LoginToChase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.chase.LoginToChase@30b7c004]" started-at="2021-04-05T14:07:39 CDT" name="setUp" finished-at="2021-04-05T14:07:42 CDT" duration-ms="2894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="chaseTitle()[pri:0, instance:com.chase.LoginToChase@30b7c004]" started-at="2021-04-05T14:07:42 CDT" name="chaseTitle" finished-at="2021-04-05T14:07:45 CDT" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chaseTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.chase.LoginToChase@30b7c004]" started-at="2021-04-05T14:07:45 CDT" name="tearDown" finished-at="2021-04-05T14:07:46 CDT" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.chase.LoginToChase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

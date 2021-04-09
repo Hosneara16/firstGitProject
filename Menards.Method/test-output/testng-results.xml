@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-06T13:57:33 CDT" name="Default suite" finished-at="2021-04-06T13:57:40 CDT" duration-ms="6445">
+    <groups>
+    </groups>
+    <test started-at="2021-04-06T13:57:33 CDT" name="Default test" finished-at="2021-04-06T13:57:40 CDT" duration-ms="6445">
+      <class name="methods.Title_Menards">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:methods.Title_Menards@2928854b]" started-at="2021-04-06T13:57:33 CDT" name="openBrowser" finished-at="2021-04-06T13:57:35 CDT" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="deleteCookie()[pri:1, instance:methods.Title_Menards@2928854b]" started-at="2021-04-06T13:57:35 CDT" name="deleteCookie" finished-at="2021-04-06T13:57:36 CDT" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookie -->
+        <test-method signature="getTitle()[pri:2, instance:methods.Title_Menards@2928854b]" started-at="2021-04-06T13:57:36 CDT" name="getTitle" finished-at="2021-04-06T13:57:39 CDT" duration-ms="3135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:methods.Title_Menards@2928854b]" started-at="2021-04-06T13:57:39 CDT" name="tearDown" finished-at="2021-04-06T13:57:40 CDT" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- methods.Title_Menards -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
